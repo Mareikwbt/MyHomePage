@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="indexstyle.css" />
+  <link rel="stylesheet" href="hamburger.css" />
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <style>
+  </style>
+</head>
+
+<body>
+  <!--起動時のLoading画面-->
+  <div class="loading">
+    <div class="loading-animation">
+      <p>WELCOME</p>
+    </div>
+  </div>
+  <!--ハンバーガーメニュー-->
+  <div id="navArea">
+    <nav>
+      <div class="inner">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="profile.html">About</a></li>
+          <li><a href="project.html">Project</a></li>
+          <li><a href="link.html">Link</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div id="mask"></div>
+  </div>
+
+  <div class="toggle-btn">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <!--Homeのレイアウト-->
+  <main>
+    <div class="title">
+      <canvas></canvas>
+      <p class="title">
+        <span>M</span>
+        <span>A</span>
+        <span>R</span>
+        <span>E</span>
+        <span>I</span>
+        <span>&nbsp;</span>
+        <span>K</span>
+        <span>A</span>
+        <span>W</span>
+        <span>A</span>
+        <span>B</span>
+        <span>A</span>
+        <span>T</span>
+        <span>A</span>
+      </p>
+    </div>
+  </main>
+  <script src="script.js"></script>
+  <script src="homescript.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+    background: #000;
+}
+
+main .contact {
+    color: #fff;
+    font-size: 50px;
+}
+
+main ul {
+
+    list-style: none;
+}
+
+main li {
+    color: #fff;
+    font-size: 30px;
+}
