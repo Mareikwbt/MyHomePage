@@ -108,6 +108,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0;
 }
 
 .hero {
@@ -177,7 +178,7 @@ main {
     margin: 18px 0 0 0;
     z-index: 9999;
     opacity: 0;
-    animation: fade-up 0.8s ease forwards 2.8s;
+    animation: fade-up 0.8s ease forwards 4.3s;
 }
 
 @keyframes fade-up {
@@ -198,7 +199,7 @@ main {
     background: linear-gradient(90deg, transparent, #64ffda, transparent);
     margin: 20px auto 0;
     z-index: 9999;
-    animation: expand-line 0.8s ease forwards 3.2s;
+    animation: expand-line 0.8s ease forwards 4.7s;
 }
 
 @keyframes expand-line {
@@ -216,7 +217,7 @@ main {
     gap: 40px;
     z-index: 100;
     opacity: 0;
-    animation: fade-up 0.8s ease forwards 3.6s;
+    animation: fade-up 0.8s ease forwards 5.1s;
 }
 
 .bottom-nav a {
