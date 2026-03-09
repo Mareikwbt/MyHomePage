@@ -1,36 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>Marei Kawabata</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="indexstyle.css" />
   <link rel="stylesheet" href="hamburger.css" />
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-  <style>
-  </style>
 </head>
 
 <body>
   <!--起動時のLoading画面-->
   <div class="loading">
     <div class="loading-animation">
-      <p>WELCOME</p>
+      <div class="loading-content">
+        <p class="loading-text">WELCOME</p>
+        <div class="loading-bar"><div class="loading-bar-fill"></div></div>
+      </div>
     </div>
   </div>
+
   <!--ハンバーガーメニュー-->
   <div id="navArea">
     <nav>
       <div class="inner">
+        <div class="nav-header">MENU</div>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="profile.html">About</a></li>
-          <li><a href="project.html">Project</a></li>
-          <li><a href="link.html">Link</a></li>
+          <li><a href="index.html"><span class="nav-num">01</span>Home</a></li>
+          <li><a href="profile.html"><span class="nav-num">02</span>About</a></li>
+          <li><a href="project.html"><span class="nav-num">03</span>Project</a></li>
+          <li><a href="link.html"><span class="nav-num">04</span>Link</a></li>
         </ul>
       </div>
     </nav>
@@ -42,28 +48,42 @@
     <span></span>
     <span></span>
   </div>
+
   <!--Homeのレイアウト-->
   <main>
-    <div class="title">
+    <div class="hero">
       <canvas></canvas>
-      <p class="title">
-        <span>M</span>
-        <span>A</span>
-        <span>R</span>
-        <span>E</span>
-        <span>I</span>
-        <span>&nbsp;</span>
-        <span>K</span>
-        <span>A</span>
-        <span>W</span>
-        <span>A</span>
-        <span>B</span>
-        <span>A</span>
-        <span>T</span>
-        <span>A</span>
-      </p>
+      <div class="hero-content">
+        <p class="title">
+          <span>M</span>
+          <span>A</span>
+          <span>R</span>
+          <span>E</span>
+          <span>I</span>
+          <span>&nbsp;</span>
+          <span>K</span>
+          <span>A</span>
+          <span>W</span>
+          <span>A</span>
+          <span>B</span>
+          <span>A</span>
+          <span>T</span>
+          <span>A</span>
+        </p>
+        <p class="subtitle">Developer &amp; Designer</p>
+        <div class="accent-line"></div>
+      </div>
     </div>
   </main>
+
+  <!--ボトムナビゲーション-->
+  <nav class="bottom-nav">
+    <a href="index.html" class="active">Home</a>
+    <a href="profile.html">About</a>
+    <a href="project.html">Project</a>
+    <a href="link.html">Link</a>
+  </nav>
+
   <script src="script.js"></script>
   <script src="homescript.js"></script>
 </body>
